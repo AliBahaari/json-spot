@@ -22,9 +22,9 @@ Next, create `db.json` in the root of your project containing API sample data:
             "id": 2,
             "title": "Title 2"
         },
-        .
-        .
-        .
+
+        ...
+        
     ]
 }
 ```
