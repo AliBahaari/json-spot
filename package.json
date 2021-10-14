@@ -1,0 +1,15 @@
+{
+  "name": "json-spot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "json-spot": "./bin/global.js"
+  },
+  "author": "Ali Bahaari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "yargs": "^17.2.1"
+  }
+}
