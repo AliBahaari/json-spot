@@ -1,6 +1,6 @@
 {
   "name": "json-spot",
-  "version": "1.0.0",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,5 +11,12 @@
   "dependencies": {
     "express": "^4.17.1",
     "yargs": "^17.2.1"
-  }
+  },
+  "keywords": [
+    "JSON",
+    "API",
+    "Sample API",
+    "JSON Server",
+    "HTTP Methods"
+  ]
 }
