@@ -12,9 +12,14 @@ module.exports = (entryFileName, entryPort) => {
     try {
 
         const fileContent = fs.readFileSync(`./${fileName}`, "utf8");
+        let newFileContent = JSON.parse(fileContent);
 
         app.get('/', (req, res) => {
-            res.json(fileContent);
+            res.json(newFileContent);
+        });
+
+        app.post('/', (req, res) => {
+            res.json({ response: "POST Request / 200" });
         });
 
         app.listen(port, () => {
