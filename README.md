@@ -44,6 +44,10 @@ localhost:4000
 
 Congratulation! Your API is ready!
 
+## Methods
+
+`json-spot` supports `GET`, `POST`, `DELETE` and `PUT` HTTP request methods for manipulating APIs you would create and run.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
