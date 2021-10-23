@@ -22,6 +22,14 @@ module.exports = (entryFileName, entryPort) => {
             res.json({ response: "POST Request / 200" });
         });
 
+        app.delete('/', (req, res) => {
+            res.json({ response: "DELETE Request / 200" });
+        });
+
+        app.put('/', (res, res) => {
+            res.json({ response: "PUT Request / 200" });
+        });
+
         app.listen(port, () => {
             console.log(`\nRunning Port: ${port}`);
         });
